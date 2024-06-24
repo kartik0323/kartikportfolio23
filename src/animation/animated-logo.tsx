@@ -5,19 +5,59 @@ import {
   useAnimation,
   useViewportScroll,
 } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function AnimatedLogo() {
   const { scrollY } = useViewportScroll();
   const controls = useAnimation();
+  const [, setOpacity] = useState(1);
 
+  // Effect to animate based on scroll position
   useEffect(() => {
     return scrollY.onChange((latest) => {
-      controls.start({
-        opacity: 1 - latest / window.innerHeight,
-      });
+      const newOpacity = Math.max(1 - latest / window.innerHeight, 0);
+      setOpacity(newOpacity);
+      controls.start({ opacity: newOpacity });
     });
   }, [scrollY, controls]);
+
+  // Function to handle interaction (mouse hover and click)
+  // eslint-disable-next-line no-unused-vars
+  const handleInteraction = () => {
+    setOpacity(1);
+    controls.start({ opacity: 1 });
+  };
+
+  // Effect to add event listeners for mouse hover, click, and scroll reset
+  useEffect(() => {
+    const handleMouseEnter = () => {
+      setOpacity(1);
+      controls.start({ opacity: 1 });
+    };
+
+    const handleMouseLeave = () => {
+      const newOpacity = Math.max(1 - scrollY.get() / window.innerHeight, 0);
+      setOpacity(newOpacity);
+      controls.start({ opacity: newOpacity });
+    };
+
+    const handleClick = () => {
+      setOpacity(1);
+      controls.start({ opacity: 1 });
+    };
+
+    window.addEventListener("mouseenter", handleMouseEnter); // Listen for mouse enter anywhere on the window
+    window.addEventListener("mouseleave", handleMouseLeave); // Listen for mouse leave anywhere on the window
+    window.addEventListener("click", handleClick); // Listen for click anywhere on the window
+    scrollY.onChange(handleMouseLeave); // Listen for scroll to adjust opacity
+
+    return () => {
+      window.removeEventListener("mouseenter", handleMouseEnter);
+      window.removeEventListener("mouseleave", handleMouseLeave);
+      window.removeEventListener("click", handleClick);
+      scrollY.clearListeners(); // Clear scroll listener
+    };
+  }, [controls, scrollY]);
 
   const iconVariant: Variants = {
     hidden: {
@@ -33,7 +73,7 @@ export default function AnimatedLogo() {
   return (
     <AnimatePresence>
       <motion.svg
-        viewBox="0 0 500 500"
+        viewBox="0 0 450 450"
         xmlns="http://www.w3.org/2000/svg"
         className="h-full w-full fill-accent stroke-accent"
         animate={controls}
