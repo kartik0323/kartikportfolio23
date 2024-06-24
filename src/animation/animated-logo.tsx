@@ -7,7 +7,7 @@ import {
 } from "framer-motion";
 import { useEffect, useState } from "react";
 
-export default function AnimatedLogo() {
+const AnimatedLogo = () => {
   const { scrollY } = useViewportScroll();
   const controls = useAnimation();
   const [, setOpacity] = useState(1);
@@ -66,7 +66,7 @@ export default function AnimatedLogo() {
     },
     visible: {
       pathLength: 1,
-      fill: "#156165",
+      fill: "#8A2BE2",
     },
   };
 
@@ -92,4 +92,6 @@ export default function AnimatedLogo() {
       </motion.svg>
     </AnimatePresence>
   );
-}
+};
+
+export default AnimatedLogo;
