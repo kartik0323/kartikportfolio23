@@ -21,7 +21,7 @@ export default function AnimatedLogo() {
         className="h-full w-full fill-accent stroke-accent"
       >
         <motion.path
-          d="M321.955 420L179.465 127.143L224.998 36.1755L416.91 420H321.955ZM204.867 263.253L128.055 420H33.0897L158.769 168.608L204.867 263.253Z"
+          d="M100 420V0H200V180L375 0H500L300 220L500 420H375L200 240V420H100Z"
           strokeWidth="15"
           variants={iconVariant}
           initial="hidden"
