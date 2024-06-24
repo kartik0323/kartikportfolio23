@@ -20,7 +20,7 @@ export default function Home() {
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Kartik Poojary - React and Frontend Developer Portfolio",
+          title: "Kartik Poojary - UI/UX Designer and Web Developer Portfolio",
           description:
             "Dive into the world of web development with Kartik Poojary. Discover a UI/UX Designer and Web Develop, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
