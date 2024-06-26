@@ -55,7 +55,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/extemporeposter.webp",
       "/images/projects/litfest.webp",
     ],
-    description: "",
+    description: "This designs are made using Adobe PS",
     sourceCodeHref: "https://github.com/",
     liveWebsiteHref: "https:",
   },
@@ -67,7 +67,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/doubtvcet.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
+      "This website is designed for those students who are shy about to ask doubts in front of whole class.",
     sourceCodeHref: "https://github.com/kartik0323/doubtvcet12",
     liveWebsiteHref: "https://doubtvcet.me",
   },
