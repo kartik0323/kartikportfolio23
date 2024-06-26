@@ -17,15 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "Poster",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
+    tags: [],
     image: {
       LIGHT: "/images/projects/extemporeposter.webp",
       DARK: "/images/projects/extemporeposter.webp",
