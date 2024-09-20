@@ -74,7 +74,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
-    imageUrl: [],
+    imageUrl: ["/static/homepage.png"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "",
