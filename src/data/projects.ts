@@ -13,6 +13,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/volumecontrol.webp",
     },
   },
+  
   {
     index: 1,
     title: "Doubvcet",
@@ -57,6 +58,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/kartik0323/kartikportfolio23",
-    liveWebsiteHref: "https://www.kartikpoojary.tech",
+    liveWebsiteHref: "https://kartikpoojary.tech",
   },
 ];
