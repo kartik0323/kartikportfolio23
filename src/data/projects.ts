@@ -77,7 +77,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/static/homepage.png"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "",
-    liveWebsiteHref: siteMetadata.siteUrl,
+    sourceCodeHref: "https://github.com/kartik0323/kartikportfolio23",
+    liveWebsiteHref: "https://www.kartikpoojary.tech",
   },
 ];
