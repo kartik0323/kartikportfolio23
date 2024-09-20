@@ -6,18 +6,17 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "AI Virtual Mouse",
     href: "/projects",
-    tags: ["python", "Machinine Learning"],
+    tags: ["Python", "Machine Learning"],
     image: {
       LIGHT: "/images/projects/volumecontrol.webp",
       DARK: "/images/projects/volumecontrol.webp",
     },
   },
-  
   {
     index: 1,
-    title: "Doubvcet",
+    title: "Doubtvcet",
     href: "/projects",
-    tags: ["Reactjs", "Nodejs", "MongoDB", "Expressjs", "Verce;", "Rest API"],
+    tags: ["React.js", "Node.js", "MongoDB", "Express.js", "Vercel", "REST API"],
     image: {
       LIGHT: "/images/projects/doubtvcet.webp",
       DARK: "/images/projects/doubtvcet.webp",
@@ -34,7 +33,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/volumecontrol.webp",
     ],
     description:
-      "It is and virtual mouse used for controlling your pc just by gestures ",
+      "A virtual mouse that uses hand gestures to control your PC.",
     sourceCodeHref:
       "https://github.com/kartik2303/virtual-mouse-using-hand-gestures",
   },
@@ -46,16 +45,16 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/doubtvcet.webp",
     ],
     description:
-      "This website is designed for those students who are shy about to ask doubts in front of whole class.",
+      "A website designed for students who are shy to ask doubts in front of the whole class.",
     sourceCodeHref: "https://github.com/kartik0323/doubtvcet12",
     liveWebsiteHref: "https://doubtvcet.me",
   },
   {
-    name: "My portfolio",
+    name: "My Portfolio",
     favicon: "/favicon.ico",
     imageUrl: ["/static/homepage.png"],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
+      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
     sourceCodeHref: "https://github.com/kartik0323/kartikportfolio23",
     liveWebsiteHref: "https://kartikpoojary.tech",
   },
