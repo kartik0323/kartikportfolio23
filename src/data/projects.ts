@@ -15,16 +15,6 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Poster",
-    href: "/projects",
-    tags: [],
-    image: {
-      LIGHT: "/images/projects/extemporeposter.webp",
-      DARK: "/images/projects/extemporeposter.webp",
-    },
-  },
-  {
-    index: 2,
     title: "Doubvcet",
     href: "/projects",
     tags: ["Reactjs", "Nodejs", "MongoDB", "Expressjs", "Verce;", "Rest API"],
@@ -47,17 +37,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "It is and virtual mouse used for controlling your pc just by gestures ",
     sourceCodeHref:
       "https://github.com/kartik2303/virtual-mouse-using-hand-gestures",
-  },
-  {
-    name: "Adobe PS",
-    favicon: "/images/projects/logos/PS.ico",
-    imageUrl: [
-      "/images/projects/extemporeposter.webp",
-      "/images/projects/litfest.webp",
-    ],
-    description: "This designs are made using Adobe PS",
-    sourceCodeHref: "https://github.com/",
-    liveWebsiteHref: "https:",
   },
   {
     name: "Doubtvcet",
