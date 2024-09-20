@@ -16,7 +16,14 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "Doubtvcet",
     href: "/projects",
-    tags: ["React.js", "Node.js", "MongoDB", "Express.js", "Vercel", "REST API"],
+    tags: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Vercel",
+      "REST API",
+    ],
     image: {
       LIGHT: "/images/projects/doubtvcet.webp",
       DARK: "/images/projects/doubtvcet.webp",
