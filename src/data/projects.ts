@@ -31,6 +31,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/doubtvcet.webp",
     },
   },
+  {
+    index: 2,
+    title: "UX CASE STUDY",
+    href: "/projects",
+    tags: [
+      "Adobe XD",
+      "Figma",
+    ],
+    image: {
+      LIGHT: "/images/projects/uxstudy.png",
+      DARK: "/images/projects/uxstudy.png",
+    },
+  }
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
@@ -66,4 +79,26 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/kartik0323/kartikportfolio23",
     liveWebsiteHref: "https://kartikpoojary.tech", // Fixed typo here
   },
+  {
+    name: "UTS UX Case Study",
+    favicon: "/images/projects/logos/figma.ico",
+    imageUrl: [
+      "/images/projects/uxstudy1.png",
+      "/images/projects/uxstudy2.png",
+      "/images/projects/uxstudy3.png",
+      "/images/projects/uxstudy4.png",
+      "/images/projects/uxstudy5.png",
+      "/images/projects/uxstudy6.png",
+      "/images/projects/uxstudy7.png",
+      "/images/projects/uxstudy8.png",
+      "/images/projects/uxstudy9.png",
+      "/images/projects/uxstudy10.png",
+      "/images/projects/uxstudy11.png",
+      "/images/projects/uxstudy12.png",
+      "/images/projects/uxstudy13.png",
+    ],
+    description: "A Case study on User Experience of UTS App.",
+    sourceCodeHref:
+      "https://github.com/kartik2303/virtual-mouse-using-hand-gestures",
+  }
 ];
