@@ -35,15 +35,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 2,
     title: "UX CASE STUDY",
     href: "/projects",
-    tags: [
-      "Adobe XD",
-      "Figma",
-    ],
+    tags: ["Adobe XD", "Figma"],
     image: {
       LIGHT: "/images/projects/uxstudy.png",
       DARK: "/images/projects/uxstudy.png",
     },
-  }
+  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
@@ -77,7 +74,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
     sourceCodeHref: "https://github.com/kartik0323/kartikportfolio23",
-    liveWebsiteHref: "https://kartikpoojary.tech", // Fixed typo here
+    liveWebsiteHref: "https://kartikpoojary.tech",
   },
   {
     name: "UTS UX Case Study",
@@ -100,5 +97,5 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description: "A Case study on User Experience of UTS App.",
     sourceCodeHref:
       "https://github.com/kartik2303/virtual-mouse-using-hand-gestures",
-  }
+  },
 ];
