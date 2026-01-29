@@ -98,4 +98,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref:
       "https://github.com/kartik2303/virtual-mouse-using-hand-gestures",
   },
+  {
+    name: "Anmol Furniture",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/anmol.png"],
+    description:
+      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
+    sourceCodeHref:
+      "https://github.com/anmolfurniturebazaar/anmolfurniturebazar",
+    liveWebsiteHref: "https://anmolfurniturebazar.vercel.app/",
+  },
 ];
