@@ -108,4 +108,24 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "https://github.com/anmolfurniturebazaar/anmolfurniturebazar",
     liveWebsiteHref: "https://anmolfurniturebazar.vercel.app/",
   },
+
+  {
+    name: "Padmavati travels",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/padmavati.png"],
+    description:
+      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
+    sourceCodeHref: "https://github.com/PadmavatiTravels/Padmavati-Travels",
+    liveWebsiteHref: "https://padmavati-travels.vercel.app/",
+  },
+
+  {
+    name: "bluewhale restro",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/bluewhale.png"],
+    description:
+      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
+    sourceCodeHref: "https://github.com/Bluewhalelagos/Blue-Whale-Asian",
+    liveWebsiteHref: "http://blue-whale-asian.vercel.app/",
+  },
 ];
