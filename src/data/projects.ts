@@ -103,7 +103,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/anmol.png"],
     description:
-      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
+      "An Ecommerce website for furniture business with admin panel.",
     sourceCodeHref:
       "https://github.com/anmolfurniturebazaar/anmolfurniturebazar",
     liveWebsiteHref: "https://anmolfurniturebazar.vercel.app/",
@@ -114,7 +114,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/padmavati.png"],
     description:
-      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
+      "An invoice generator and business management system for padmavati travels.",
     sourceCodeHref: "https://github.com/PadmavatiTravels/Padmavati-Travels",
     liveWebsiteHref: "https://padmavati-travels.vercel.app/",
   },
@@ -124,7 +124,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/bluewhale.png"],
     description:
-      "My personal portfolio website built using Next.js, Tailwind CSS, and Framer Motion.",
+      "An Asian cuisine restaurant website for booking purpose built using Next.js, Tailwind CSS, and Framer Motion.",
     sourceCodeHref: "https://github.com/Bluewhalelagos/Blue-Whale-Asian",
     liveWebsiteHref: "http://blue-whale-asian.vercel.app/",
   },
